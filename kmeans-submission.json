@@ -1,0 +1,886 @@
+{
+  "formatVersion": 2,
+  "assignmentId": "kmeans",
+  "assignmentVersion": 7,
+  "generatedAt": "2026-09-11T04:16:29.296Z",
+  "questions": [
+    {
+      "id": "kmeans-two-iterations",
+      "status": "correct",
+      "attempts": 12,
+      "hintsShown": 3,
+      "latestAnswer": {
+        "step": "centroids",
+        "iteration": 2,
+        "centroids": [
+          [
+            -4.238263912646824,
+            2.182934564499628
+          ],
+          [
+            0.22276029193750624,
+            -4.131744358607701
+          ],
+          [
+            4.919923071805982,
+            2.8469824247814355
+          ]
+        ],
+        "referenceCentroids": [
+          [
+            -4.238263912646824,
+            2.182934564499628
+          ],
+          [
+            0.22276029193750624,
+            -4.131744358607701
+          ],
+          [
+            4.919923071805982,
+            2.8469824247814355
+          ]
+        ],
+        "referenceAssignments": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          0,
+          1,
+          2
+        ]
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-11T03:52:05.610Z",
+          "answer": {
+            "step": "assignments",
+            "iteration": 0,
+            "assignments": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              0,
+              1,
+              2
+            ],
+            "referenceCentroids": [
+              [
+                -7,
+                2
+              ],
+              [
+                -2,
+                -6
+              ],
+              [
+                7,
+                2
+              ]
+            ]
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-11T03:52:15.393Z",
+          "answer": {
+            "step": "assignments",
+            "iteration": 0,
+            "assignments": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              2,
+              1,
+              2,
+              2,
+              2,
+              2,
+              0,
+              2,
+              2
+            ],
+            "referenceCentroids": [
+              [
+                -7,
+                2
+              ],
+              [
+                -2,
+                -6
+              ],
+              [
+                7,
+                2
+              ]
+            ]
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "progress",
+          "submittedAt": "2026-09-11T03:52:47.242Z",
+          "answer": {
+            "step": "assignments",
+            "iteration": 0,
+            "assignments": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              0,
+              2,
+              2
+            ],
+            "referenceCentroids": [
+              [
+                -7,
+                2
+              ],
+              [
+                -2,
+                -6
+              ],
+              [
+                7,
+                2
+              ]
+            ]
+          }
+        },
+        {
+          "attemptNumber": 4,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-11T03:53:19.309Z",
+          "answer": {
+            "step": "centroids",
+            "iteration": 0,
+            "centroids": [
+              [
+                -3.4577292878321355,
+                2.0951272379557295
+              ],
+              [
+                -0.037222839928537255,
+                -4.3167539527529755
+              ],
+              [
+                4.172514682403923,
+                2.2036358351934524
+              ]
+            ],
+            "referenceCentroids": [
+              [
+                -3.4577292878321355,
+                2.0951272379557295
+              ],
+              [
+                -0.037222839928537255,
+                -4.3167539527529755
+              ],
+              [
+                4.172514682403923,
+                2.2036358351934524
+              ]
+            ],
+            "referenceAssignments": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              0,
+              2,
+              2
+            ]
+          }
+        },
+        {
+          "attemptNumber": 5,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-11T03:53:28.941Z",
+          "answer": {
+            "step": "centroids",
+            "iteration": 0,
+            "centroids": [
+              [
+                -3.4577292878321355,
+                2.0951272379557295
+              ],
+              [
+                -0.037222839928537255,
+                -4.3167539527529755
+              ],
+              [
+                5.056321059984036,
+                3.3182387753441214
+              ]
+            ],
+            "referenceCentroids": [
+              [
+                -3.4577292878321355,
+                2.0951272379557295
+              ],
+              [
+                -0.037222839928537255,
+                -4.3167539527529755
+              ],
+              [
+                5.056321059984036,
+                3.3182387753441214
+              ]
+            ],
+            "referenceAssignments": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              0,
+              2,
+              2
+            ]
+          }
+        },
+        {
+          "attemptNumber": 6,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-11T03:53:35.192Z",
+          "answer": {
+            "step": "centroids",
+            "iteration": 0,
+            "centroids": [
+              [
+                -3.4577292878321355,
+                2.0951272379557295
+              ],
+              [
+                -0.037222839928537255,
+                -4.3167539527529755
+              ],
+              [
+                3.946893269852131,
+                0.642245814732143
+              ]
+            ],
+            "referenceCentroids": [
+              [
+                -3.4577292878321355,
+                2.0951272379557295
+              ],
+              [
+                -0.037222839928537255,
+                -4.3167539527529755
+              ],
+              [
+                3.946893269852131,
+                0.642245814732143
+              ]
+            ],
+            "referenceAssignments": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              0,
+              2,
+              2
+            ]
+          }
+        },
+        {
+          "attemptNumber": 7,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-11T03:53:37.226Z",
+          "answer": {
+            "step": "centroids",
+            "iteration": 0,
+            "centroids": [
+              [
+                -3.4577292878321355,
+                2.0951272379557295
+              ],
+              [
+                -0.037222839928537255,
+                -4.3167539527529755
+              ],
+              [
+                3.946893269852131,
+                0.642245814732143
+              ]
+            ],
+            "referenceCentroids": [
+              [
+                -3.4577292878321355,
+                2.0951272379557295
+              ],
+              [
+                -0.037222839928537255,
+                -4.3167539527529755
+              ],
+              [
+                3.946893269852131,
+                0.642245814732143
+              ]
+            ],
+            "referenceAssignments": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              0,
+              2,
+              2
+            ]
+          }
+        },
+        {
+          "attemptNumber": 8,
+          "outcome": "progress",
+          "submittedAt": "2026-09-11T03:56:27.790Z",
+          "answer": {
+            "step": "centroids",
+            "iteration": 0,
+            "centroids": [
+              [
+                -4.238263912646824,
+                2.182934564499628
+              ],
+              [
+                0.42430531797620397,
+                -4.861399466378348
+              ],
+              [
+                4.641368100695631,
+                2.7043602033342626
+              ]
+            ],
+            "referenceCentroids": [
+              [
+                -4.238263912646824,
+                2.182934564499628
+              ],
+              [
+                0.42430531797620397,
+                -4.861399466378348
+              ],
+              [
+                4.641368100695631,
+                2.7043602033342626
+              ]
+            ],
+            "referenceAssignments": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              0,
+              2,
+              2
+            ]
+          }
+        },
+        {
+          "attemptNumber": 9,
+          "outcome": "progress",
+          "submittedAt": "2026-09-11T03:57:02.139Z",
+          "answer": {
+            "step": "assignments",
+            "iteration": 1,
+            "assignments": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              0,
+              1,
+              2
+            ],
+            "referenceCentroids": [
+              [
+                -4.238263912646824,
+                2.182934564499628
+              ],
+              [
+                0.42430531797620397,
+                -4.861399466378348
+              ],
+              [
+                4.641368100695631,
+                2.7043602033342626
+              ]
+            ]
+          }
+        },
+        {
+          "attemptNumber": 10,
+          "outcome": "progress",
+          "submittedAt": "2026-09-11T03:58:11.255Z",
+          "answer": {
+            "step": "centroids",
+            "iteration": 1,
+            "centroids": [
+              [
+                -4.238263912646824,
+                2.182934564499628
+              ],
+              [
+                0.22276029193750624,
+                -4.131744358607701
+              ],
+              [
+                4.919923071805982,
+                2.8469824247814355
+              ]
+            ],
+            "referenceCentroids": [
+              [
+                -4.238263912646824,
+                2.182934564499628
+              ],
+              [
+                0.22276029193750624,
+                -4.131744358607701
+              ],
+              [
+                4.919923071805982,
+                2.8469824247814355
+              ]
+            ],
+            "referenceAssignments": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              0,
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "attemptNumber": 11,
+          "outcome": "progress",
+          "submittedAt": "2026-09-11T03:58:47.695Z",
+          "answer": {
+            "step": "assignments",
+            "iteration": 2,
+            "assignments": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              0,
+              1,
+              2
+            ],
+            "referenceCentroids": [
+              [
+                -4.238263912646824,
+                2.182934564499628
+              ],
+              [
+                0.22276029193750624,
+                -4.131744358607701
+              ],
+              [
+                4.919923071805982,
+                2.8469824247814355
+              ]
+            ]
+          }
+        },
+        {
+          "attemptNumber": 12,
+          "outcome": "correct",
+          "submittedAt": "2026-09-11T03:59:25.454Z",
+          "answer": {
+            "step": "centroids",
+            "iteration": 2,
+            "centroids": [
+              [
+                -4.238263912646824,
+                2.182934564499628
+              ],
+              [
+                0.22276029193750624,
+                -4.131744358607701
+              ],
+              [
+                4.919923071805982,
+                2.8469824247814355
+              ]
+            ],
+            "referenceCentroids": [
+              [
+                -4.238263912646824,
+                2.182934564499628
+              ],
+              [
+                0.22276029193750624,
+                -4.131744358607701
+              ],
+              [
+                4.919923071805982,
+                2.8469824247814355
+              ]
+            ],
+            "referenceAssignments": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              0,
+              1,
+              2
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kmeans-bad-initialization",
+      "status": "correct",
+      "attempts": 2,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "centroids": [
+          [
+            1.7624050632911388,
+            -0.9349194912548651
+          ],
+          [
+            -2.5712339498983177,
+            16.145672121086804
+          ],
+          [
+            -1.0748895731174208,
+            0.8805791902953501
+          ]
+        ]
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-11T04:00:42.184Z",
+          "answer": {
+            "centroids": [
+              [
+                1.7624050632911388,
+                -0.9349194912548651
+              ],
+              [
+                1.4661344889193,
+                1.5059732142857145
+              ],
+              [
+                -1.0748895731174208,
+                0.8805791902953501
+              ]
+            ]
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "correct",
+          "submittedAt": "2026-09-11T04:00:50.773Z",
+          "answer": {
+            "centroids": [
+              [
+                1.7624050632911388,
+                -0.9349194912548651
+              ],
+              [
+                -2.5712339498983177,
+                16.145672121086804
+              ],
+              [
+                -1.0748895731174208,
+                0.8805791902953501
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kmeans-metric-assignments",
+      "status": "correct",
+      "attempts": 2,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "step": "manhattan",
+        "assignments": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "progress",
+          "submittedAt": "2026-09-11T04:01:28.739Z",
+          "answer": {
+            "step": "euclidean",
+            "assignments": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "correct",
+          "submittedAt": "2026-09-11T04:01:54.340Z",
+          "answer": {
+            "step": "manhattan",
+            "assignments": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kmeans-elbow",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "selectedIds": {
+          "best-k": "k2"
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-11T04:02:29.273Z",
+          "answer": {
+            "selectedIds": {
+              "best-k": "k2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "kmeans-code-lab",
+      "status": "correct",
+      "attempts": 3,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "formatVersion": 1,
+        "questionId": "kmeans-code-lab",
+        "variantId": "kmeans-notebook-v1",
+        "stages": {
+          "TRACE": {
+            "CENTERS": "CENTERS_MEANS",
+            "DISTANCES": "DISTANCES_SQUARED",
+            "ASSIGNED": "ASSIGNED_BALANCED",
+            "MATRIX": "MATRIX_CLUSTER_ROWS",
+            "PREDICTION": "PREDICT_FIRST_TIE"
+          },
+          "MUTATION": {
+            "MUTATED_RESULT": "ROWS_PER_CENTER"
+          },
+          "TEST": {
+            "TEST_ID": "FOUR_ROWS_TWO_CENTERS"
+          }
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "progress",
+          "submittedAt": "2026-09-11T04:06:07.259Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "kmeans-code-lab",
+            "variantId": "kmeans-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "CENTERS": "CENTERS_MEANS",
+                "DISTANCES": "DISTANCES_SQUARED",
+                "ASSIGNED": "ASSIGNED_BALANCED",
+                "MATRIX": "MATRIX_CLUSTER_ROWS",
+                "PREDICTION": "PREDICT_FIRST_TIE"
+              },
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "progress",
+          "submittedAt": "2026-09-11T04:07:28.425Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "kmeans-code-lab",
+            "variantId": "kmeans-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "CENTERS": "CENTERS_MEANS",
+                "DISTANCES": "DISTANCES_SQUARED",
+                "ASSIGNED": "ASSIGNED_BALANCED",
+                "MATRIX": "MATRIX_CLUSTER_ROWS",
+                "PREDICTION": "PREDICT_FIRST_TIE"
+              },
+              "MUTATION": {
+                "MUTATED_RESULT": "ROWS_PER_CENTER"
+              },
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "correct",
+          "submittedAt": "2026-09-11T04:16:25.596Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "kmeans-code-lab",
+            "variantId": "kmeans-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "CENTERS": "CENTERS_MEANS",
+                "DISTANCES": "DISTANCES_SQUARED",
+                "ASSIGNED": "ASSIGNED_BALANCED",
+                "MATRIX": "MATRIX_CLUSTER_ROWS",
+                "PREDICTION": "PREDICT_FIRST_TIE"
+              },
+              "MUTATION": {
+                "MUTATED_RESULT": "ROWS_PER_CENTER"
+              },
+              "TEST": {
+                "TEST_ID": "FOUR_ROWS_TWO_CENTERS"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

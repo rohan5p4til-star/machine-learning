@@ -1,0 +1,253 @@
+{
+  "formatVersion": 2,
+  "assignmentId": "numpy",
+  "assignmentVersion": 1,
+  "generatedAt": "2026-09-03T04:01:01.849Z",
+  "questions": [
+    {
+      "id": "numpy-shapes-indexing",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "selectedIds": {
+          "y-shape": "shape-12",
+          "Y-shape": "shape-3-4",
+          "indexed-value": "value-7",
+          "newaxis-shape": "shape-12-1"
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-03T03:11:14.788Z",
+          "answer": {
+            "selectedIds": {
+              "y-shape": "shape-12",
+              "Y-shape": "shape-3-4",
+              "indexed-value": "value-7",
+              "newaxis-shape": "shape-12-1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "numpy-slicing-masks",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "selectedIds": {
+          "rectangular-slice": "slice-2-3-6-7",
+          "boolean-filter": "filter-6-9-12"
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-03T03:18:21.969Z",
+          "answer": {
+            "selectedIds": {
+              "rectangular-slice": "slice-2-3-6-7",
+              "boolean-filter": "filter-6-9-12"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "numpy-elementwise-reductions",
+      "status": "correct",
+      "attempts": 2,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "selectedIds": {
+          "elementwise-value": "one-plus-sqrt-7",
+          "column-maxima": "max-9-10-11-12",
+          "row-sums": "sums-10-26-42"
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-03T03:26:57.310Z",
+          "answer": {
+            "selectedIds": {
+              "elementwise-value": "one-plus-sqrt-6",
+              "column-maxima": "max-9-10-11-12",
+              "row-sums": "sums-10-26-42"
+            }
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "correct",
+          "submittedAt": "2026-09-03T03:27:46.318Z",
+          "answer": {
+            "selectedIds": {
+              "elementwise-value": "one-plus-sqrt-7",
+              "column-maxima": "max-9-10-11-12",
+              "row-sums": "sums-10-26-42"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "numpy-matrix-product",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "selectedIds": {
+          "product-shape": "shape-3-3",
+          "first-product-row": "row-10-26-42"
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-03T03:38:11.346Z",
+          "answer": {
+            "selectedIds": {
+              "product-shape": "shape-3-3",
+              "first-product-row": "row-10-26-42"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "numpy-notebook-lab",
+      "status": "correct",
+      "attempts": 4,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "formatVersion": 1,
+        "questionId": "numpy-notebook-lab",
+        "variantId": "numpy-notebook-v1",
+        "stages": {
+          "TRACE": {
+            "ARRAY_SHAPE": "SHAPE_100_10",
+            "COLUMN_SHAPE": "SHAPE_1000_1",
+            "SLICE_VALUE": "VALUE_36",
+            "FILTERED_VALUES": "MULTIPLES_21_TO_69",
+            "SUMMARY": "SUMMARY_8_483_996_555",
+            "MATRIX_SUMMARY": "MATRIX_100_100_555"
+          },
+          "MUTATION": {
+            "CHANGED_MATRIX_SUMMARY": "CHANGED_10_10_50100"
+          },
+          "TEST": {
+            "TEST_ID": "TEST_NOTEBOOK_PRODUCT"
+          }
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "progress",
+          "submittedAt": "2026-09-03T03:57:45.622Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "numpy-notebook-lab",
+            "variantId": "numpy-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "ARRAY_SHAPE": "SHAPE_100_10",
+                "COLUMN_SHAPE": "SHAPE_1000_1",
+                "SLICE_VALUE": "VALUE_36",
+                "FILTERED_VALUES": "MULTIPLES_21_TO_69",
+                "SUMMARY": "SUMMARY_8_483_996_555",
+                "MATRIX_SUMMARY": "MATRIX_100_100_555"
+              },
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "progress",
+          "submittedAt": "2026-09-03T04:00:30.941Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "numpy-notebook-lab",
+            "variantId": "numpy-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "ARRAY_SHAPE": "SHAPE_100_10",
+                "COLUMN_SHAPE": "SHAPE_1000_1",
+                "SLICE_VALUE": "VALUE_36",
+                "FILTERED_VALUES": "MULTIPLES_21_TO_69",
+                "SUMMARY": "SUMMARY_8_483_996_555",
+                "MATRIX_SUMMARY": "MATRIX_100_100_555"
+              },
+              "MUTATION": {
+                "CHANGED_MATRIX_SUMMARY": "CHANGED_10_10_50100"
+              },
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-03T04:00:42.416Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "numpy-notebook-lab",
+            "variantId": "numpy-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "ARRAY_SHAPE": "SHAPE_100_10",
+                "COLUMN_SHAPE": "SHAPE_1000_1",
+                "SLICE_VALUE": "VALUE_36",
+                "FILTERED_VALUES": "MULTIPLES_21_TO_69",
+                "SUMMARY": "SUMMARY_8_483_996_555",
+                "MATRIX_SUMMARY": "MATRIX_100_100_555"
+              },
+              "MUTATION": {
+                "CHANGED_MATRIX_SUMMARY": "CHANGED_10_10_50100"
+              },
+              "TEST": {
+                "TEST_ID": "TEST_FLOAT_DTYPE"
+              }
+            }
+          }
+        },
+        {
+          "attemptNumber": 4,
+          "outcome": "correct",
+          "submittedAt": "2026-09-03T04:00:58.380Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "numpy-notebook-lab",
+            "variantId": "numpy-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "ARRAY_SHAPE": "SHAPE_100_10",
+                "COLUMN_SHAPE": "SHAPE_1000_1",
+                "SLICE_VALUE": "VALUE_36",
+                "FILTERED_VALUES": "MULTIPLES_21_TO_69",
+                "SUMMARY": "SUMMARY_8_483_996_555",
+                "MATRIX_SUMMARY": "MATRIX_100_100_555"
+              },
+              "MUTATION": {
+                "CHANGED_MATRIX_SUMMARY": "CHANGED_10_10_50100"
+              },
+              "TEST": {
+                "TEST_ID": "TEST_NOTEBOOK_PRODUCT"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

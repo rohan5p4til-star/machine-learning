@@ -1,0 +1,748 @@
+{
+  "formatVersion": 2,
+  "assignmentId": "polynomial-regression",
+  "assignmentVersion": 3,
+  "generatedAt": "2026-09-20T15:26:39.558Z",
+  "questions": [
+    {
+      "id": "polynomial-curves",
+      "status": "correct",
+      "attempts": 2,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "selectedIds": {
+          "line": "B",
+          "generalization": "need-validation"
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-20T15:05:59.455Z",
+          "answer": {
+            "selectedIds": {
+              "line": "B",
+              "generalization": "always"
+            }
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "correct",
+          "submittedAt": "2026-09-20T15:06:03.702Z",
+          "answer": {
+            "selectedIds": {
+              "line": "B",
+              "generalization": "need-validation"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "polynomial-training-degree",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "degree": 8,
+        "trainingMse": 0.025204979247002404,
+        "validationMse": 0.12203424886881836
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-20T15:08:05.513Z",
+          "answer": {
+            "degree": 8,
+            "trainingMse": 0.025204979247002404,
+            "validationMse": 0.12203424886881836
+          }
+        }
+      ]
+    },
+    {
+      "id": "polynomial-validation-degree",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "degree": 2,
+        "trainingMse": 0.16016548466203703,
+        "validationMse": 0.013542258180115292
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-20T15:08:29.264Z",
+          "answer": {
+            "degree": 2,
+            "trainingMse": 0.16016548466203703,
+            "validationMse": 0.013542258180115292
+          }
+        }
+      ]
+    },
+    {
+      "id": "polynomial-validation-curve",
+      "status": "correct",
+      "attempts": 9,
+      "hintsShown": 2,
+      "latestAnswer": {
+        "selectedIds": {
+          "degree": "four",
+          "evidence": "overfit"
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-20T15:08:40.707Z",
+          "answer": {
+            "selectedIds": {
+              "degree": "four",
+              "evidence": "always-bad"
+            }
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-20T15:08:43.087Z",
+          "answer": {
+            "selectedIds": {
+              "degree": "four",
+              "evidence": "both-better"
+            }
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-20T15:08:48.646Z",
+          "answer": {
+            "selectedIds": {
+              "degree": "one",
+              "evidence": "both-better"
+            }
+          }
+        },
+        {
+          "attemptNumber": 4,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-20T15:08:52.279Z",
+          "answer": {
+            "selectedIds": {
+              "degree": "eight",
+              "evidence": "both-better"
+            }
+          }
+        },
+        {
+          "attemptNumber": 5,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-20T15:08:54.486Z",
+          "answer": {
+            "selectedIds": {
+              "degree": "eight",
+              "evidence": "overfit"
+            }
+          }
+        },
+        {
+          "attemptNumber": 6,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-20T15:08:58.082Z",
+          "answer": {
+            "selectedIds": {
+              "degree": "one",
+              "evidence": "always-bad"
+            }
+          }
+        },
+        {
+          "attemptNumber": 7,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-20T15:09:01.399Z",
+          "answer": {
+            "selectedIds": {
+              "degree": "four",
+              "evidence": "always-bad"
+            }
+          }
+        },
+        {
+          "attemptNumber": 8,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-20T15:09:02.112Z",
+          "answer": {
+            "selectedIds": {
+              "degree": "four",
+              "evidence": "always-bad"
+            }
+          }
+        },
+        {
+          "attemptNumber": 9,
+          "outcome": "correct",
+          "submittedAt": "2026-09-20T15:09:03.552Z",
+          "answer": {
+            "selectedIds": {
+              "degree": "four",
+              "evidence": "overfit"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "polynomial-evaluation",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "selectedIds": {
+          "scaler": "training",
+          "final-test": "fresh"
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-20T15:13:54.538Z",
+          "answer": {
+            "selectedIds": {
+              "scaler": "training",
+              "final-test": "fresh"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "polynomial-regression-notebook-lab",
+      "status": "correct",
+      "attempts": 5,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "formatVersion": 1,
+        "questionId": "polynomial-regression-notebook-lab",
+        "variantId": "polynomial-regression-notebook-v2",
+        "stages": {
+          "TRACE": {
+            "SCALED": "SCALED_NEG1_1"
+          },
+          "FEATURES": {
+            "FEATURES": "FEATURES_POWERS_1_TO_3"
+          },
+          "RESTORE": {
+            "RESTORED": "RESTORED_1_3"
+          },
+          "MUTATION": {
+            "MUTATED_FEATURES": "MUTATED_POWERS_0_TO_2"
+          },
+          "TEST": {
+            "TEST_ID": "TEST_FIRST_COLUMN"
+          }
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "progress",
+          "submittedAt": "2026-09-20T15:15:20.476Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-regression-notebook-lab",
+            "variantId": "polynomial-regression-notebook-v2",
+            "stages": {
+              "TRACE": {
+                "SCALED": "SCALED_NEG1_1"
+              },
+              "FEATURES": {},
+              "RESTORE": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "progress",
+          "submittedAt": "2026-09-20T15:15:55.447Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-regression-notebook-lab",
+            "variantId": "polynomial-regression-notebook-v2",
+            "stages": {
+              "TRACE": {
+                "SCALED": "SCALED_NEG1_1"
+              },
+              "FEATURES": {
+                "FEATURES": "FEATURES_POWERS_1_TO_3"
+              },
+              "RESTORE": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "progress",
+          "submittedAt": "2026-09-20T15:16:05.497Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-regression-notebook-lab",
+            "variantId": "polynomial-regression-notebook-v2",
+            "stages": {
+              "TRACE": {
+                "SCALED": "SCALED_NEG1_1"
+              },
+              "FEATURES": {
+                "FEATURES": "FEATURES_POWERS_1_TO_3"
+              },
+              "RESTORE": {
+                "RESTORED": "RESTORED_1_3"
+              },
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 4,
+          "outcome": "progress",
+          "submittedAt": "2026-09-20T15:16:38.826Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-regression-notebook-lab",
+            "variantId": "polynomial-regression-notebook-v2",
+            "stages": {
+              "TRACE": {
+                "SCALED": "SCALED_NEG1_1"
+              },
+              "FEATURES": {
+                "FEATURES": "FEATURES_POWERS_1_TO_3"
+              },
+              "RESTORE": {
+                "RESTORED": "RESTORED_1_3"
+              },
+              "MUTATION": {
+                "MUTATED_FEATURES": "MUTATED_POWERS_0_TO_2"
+              },
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 5,
+          "outcome": "correct",
+          "submittedAt": "2026-09-20T15:18:56.583Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-regression-notebook-lab",
+            "variantId": "polynomial-regression-notebook-v2",
+            "stages": {
+              "TRACE": {
+                "SCALED": "SCALED_NEG1_1"
+              },
+              "FEATURES": {
+                "FEATURES": "FEATURES_POWERS_1_TO_3"
+              },
+              "RESTORE": {
+                "RESTORED": "RESTORED_1_3"
+              },
+              "MUTATION": {
+                "MUTATED_FEATURES": "MUTATED_POWERS_0_TO_2"
+              },
+              "TEST": {
+                "TEST_ID": "TEST_FIRST_COLUMN"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "polynomial-evaluation-notebook-lab",
+      "status": "correct",
+      "attempts": 10,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "formatVersion": 1,
+        "questionId": "polynomial-evaluation-notebook-lab",
+        "variantId": "polynomial-evaluation-v1",
+        "stages": {
+          "TRACE": {
+            "ANSWER": "TRACE_0"
+          },
+          "VAL_FEATURES": {
+            "ANSWER": "VAL_FEATURES_0"
+          },
+          "COEF": {
+            "ANSWER": "COEF_0"
+          },
+          "INTERCEPT": {
+            "ANSWER": "INTERCEPT_0"
+          },
+          "PREDICT": {
+            "ANSWER": "PREDICT_0"
+          },
+          "TRAIN_MSE": {
+            "ANSWER": "TRAIN_MSE_0"
+          },
+          "VAL_MSE": {
+            "ANSWER": "VAL_MSE_0"
+          },
+          "ORDER": {
+            "ANSWER": "ORDER_0"
+          },
+          "MUTATION": {
+            "ANSWER": "MUTATION_0"
+          },
+          "TEST": {
+            "ANSWER": "TEST_0"
+          }
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "progress",
+          "submittedAt": "2026-09-20T15:23:58.812Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-evaluation-notebook-lab",
+            "variantId": "polynomial-evaluation-v1",
+            "stages": {
+              "TRACE": {
+                "ANSWER": "TRACE_0"
+              },
+              "VAL_FEATURES": {},
+              "COEF": {},
+              "INTERCEPT": {},
+              "PREDICT": {},
+              "TRAIN_MSE": {},
+              "VAL_MSE": {},
+              "ORDER": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "progress",
+          "submittedAt": "2026-09-20T15:24:05.291Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-evaluation-notebook-lab",
+            "variantId": "polynomial-evaluation-v1",
+            "stages": {
+              "TRACE": {
+                "ANSWER": "TRACE_0"
+              },
+              "VAL_FEATURES": {
+                "ANSWER": "VAL_FEATURES_0"
+              },
+              "COEF": {},
+              "INTERCEPT": {},
+              "PREDICT": {},
+              "TRAIN_MSE": {},
+              "VAL_MSE": {},
+              "ORDER": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "progress",
+          "submittedAt": "2026-09-20T15:24:14.130Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-evaluation-notebook-lab",
+            "variantId": "polynomial-evaluation-v1",
+            "stages": {
+              "TRACE": {
+                "ANSWER": "TRACE_0"
+              },
+              "VAL_FEATURES": {
+                "ANSWER": "VAL_FEATURES_0"
+              },
+              "COEF": {
+                "ANSWER": "COEF_0"
+              },
+              "INTERCEPT": {},
+              "PREDICT": {},
+              "TRAIN_MSE": {},
+              "VAL_MSE": {},
+              "ORDER": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 4,
+          "outcome": "progress",
+          "submittedAt": "2026-09-20T15:24:21.313Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-evaluation-notebook-lab",
+            "variantId": "polynomial-evaluation-v1",
+            "stages": {
+              "TRACE": {
+                "ANSWER": "TRACE_0"
+              },
+              "VAL_FEATURES": {
+                "ANSWER": "VAL_FEATURES_0"
+              },
+              "COEF": {
+                "ANSWER": "COEF_0"
+              },
+              "INTERCEPT": {
+                "ANSWER": "INTERCEPT_0"
+              },
+              "PREDICT": {},
+              "TRAIN_MSE": {},
+              "VAL_MSE": {},
+              "ORDER": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 5,
+          "outcome": "progress",
+          "submittedAt": "2026-09-20T15:24:27.358Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-evaluation-notebook-lab",
+            "variantId": "polynomial-evaluation-v1",
+            "stages": {
+              "TRACE": {
+                "ANSWER": "TRACE_0"
+              },
+              "VAL_FEATURES": {
+                "ANSWER": "VAL_FEATURES_0"
+              },
+              "COEF": {
+                "ANSWER": "COEF_0"
+              },
+              "INTERCEPT": {
+                "ANSWER": "INTERCEPT_0"
+              },
+              "PREDICT": {
+                "ANSWER": "PREDICT_0"
+              },
+              "TRAIN_MSE": {},
+              "VAL_MSE": {},
+              "ORDER": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 6,
+          "outcome": "progress",
+          "submittedAt": "2026-09-20T15:24:40.986Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-evaluation-notebook-lab",
+            "variantId": "polynomial-evaluation-v1",
+            "stages": {
+              "TRACE": {
+                "ANSWER": "TRACE_0"
+              },
+              "VAL_FEATURES": {
+                "ANSWER": "VAL_FEATURES_0"
+              },
+              "COEF": {
+                "ANSWER": "COEF_0"
+              },
+              "INTERCEPT": {
+                "ANSWER": "INTERCEPT_0"
+              },
+              "PREDICT": {
+                "ANSWER": "PREDICT_0"
+              },
+              "TRAIN_MSE": {
+                "ANSWER": "TRAIN_MSE_0"
+              },
+              "VAL_MSE": {},
+              "ORDER": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 7,
+          "outcome": "progress",
+          "submittedAt": "2026-09-20T15:24:48.044Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-evaluation-notebook-lab",
+            "variantId": "polynomial-evaluation-v1",
+            "stages": {
+              "TRACE": {
+                "ANSWER": "TRACE_0"
+              },
+              "VAL_FEATURES": {
+                "ANSWER": "VAL_FEATURES_0"
+              },
+              "COEF": {
+                "ANSWER": "COEF_0"
+              },
+              "INTERCEPT": {
+                "ANSWER": "INTERCEPT_0"
+              },
+              "PREDICT": {
+                "ANSWER": "PREDICT_0"
+              },
+              "TRAIN_MSE": {
+                "ANSWER": "TRAIN_MSE_0"
+              },
+              "VAL_MSE": {
+                "ANSWER": "VAL_MSE_0"
+              },
+              "ORDER": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 8,
+          "outcome": "progress",
+          "submittedAt": "2026-09-20T15:24:55.172Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-evaluation-notebook-lab",
+            "variantId": "polynomial-evaluation-v1",
+            "stages": {
+              "TRACE": {
+                "ANSWER": "TRACE_0"
+              },
+              "VAL_FEATURES": {
+                "ANSWER": "VAL_FEATURES_0"
+              },
+              "COEF": {
+                "ANSWER": "COEF_0"
+              },
+              "INTERCEPT": {
+                "ANSWER": "INTERCEPT_0"
+              },
+              "PREDICT": {
+                "ANSWER": "PREDICT_0"
+              },
+              "TRAIN_MSE": {
+                "ANSWER": "TRAIN_MSE_0"
+              },
+              "VAL_MSE": {
+                "ANSWER": "VAL_MSE_0"
+              },
+              "ORDER": {
+                "ANSWER": "ORDER_0"
+              },
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 9,
+          "outcome": "progress",
+          "submittedAt": "2026-09-20T15:26:28.755Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-evaluation-notebook-lab",
+            "variantId": "polynomial-evaluation-v1",
+            "stages": {
+              "TRACE": {
+                "ANSWER": "TRACE_0"
+              },
+              "VAL_FEATURES": {
+                "ANSWER": "VAL_FEATURES_0"
+              },
+              "COEF": {
+                "ANSWER": "COEF_0"
+              },
+              "INTERCEPT": {
+                "ANSWER": "INTERCEPT_0"
+              },
+              "PREDICT": {
+                "ANSWER": "PREDICT_0"
+              },
+              "TRAIN_MSE": {
+                "ANSWER": "TRAIN_MSE_0"
+              },
+              "VAL_MSE": {
+                "ANSWER": "VAL_MSE_0"
+              },
+              "ORDER": {
+                "ANSWER": "ORDER_0"
+              },
+              "MUTATION": {
+                "ANSWER": "MUTATION_0"
+              },
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 10,
+          "outcome": "correct",
+          "submittedAt": "2026-09-20T15:26:36.921Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "polynomial-evaluation-notebook-lab",
+            "variantId": "polynomial-evaluation-v1",
+            "stages": {
+              "TRACE": {
+                "ANSWER": "TRACE_0"
+              },
+              "VAL_FEATURES": {
+                "ANSWER": "VAL_FEATURES_0"
+              },
+              "COEF": {
+                "ANSWER": "COEF_0"
+              },
+              "INTERCEPT": {
+                "ANSWER": "INTERCEPT_0"
+              },
+              "PREDICT": {
+                "ANSWER": "PREDICT_0"
+              },
+              "TRAIN_MSE": {
+                "ANSWER": "TRAIN_MSE_0"
+              },
+              "VAL_MSE": {
+                "ANSWER": "VAL_MSE_0"
+              },
+              "ORDER": {
+                "ANSWER": "ORDER_0"
+              },
+              "MUTATION": {
+                "ANSWER": "MUTATION_0"
+              },
+              "TEST": {
+                "ANSWER": "TEST_0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "formatVersion": 2,
+  "assignmentId": "linear-regression",
+  "assignmentVersion": 2,
+  "generatedAt": "2026-09-18T08:59:32.081Z",
+  "questions": [
+    {
+      "id": "linear-regression-fit-line",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "slope": 0.99,
+        "intercept": 2.72,
+        "rss": 7.5236
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-18T08:51:22.483Z",
+          "answer": {
+            "slope": 0.99,
+            "intercept": 2.72,
+            "rss": 7.5236
+          }
+        }
+      ]
+    },
+    {
+      "id": "linear-regression-fit-plane",
+      "status": "correct",
+      "attempts": 2,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "slope1": 0.64,
+        "slope2": -0.54,
+        "intercept": 1.52,
+        "rss": 6.693040000000001
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-18T08:52:14.310Z",
+          "answer": {
+            "slope1": 0.64,
+            "slope2": -0.57,
+            "intercept": 1.59,
+            "rss": 6.942399999999999
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "correct",
+          "submittedAt": "2026-09-18T08:53:06.620Z",
+          "answer": {
+            "slope1": 0.64,
+            "slope2": -0.54,
+            "intercept": 1.52,
+            "rss": 6.693040000000001
+          }
+        }
+      ]
+    },
+    {
+      "id": "linear-regression-notebook-lab",
+      "status": "correct",
+      "attempts": 9,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "formatVersion": 1,
+        "questionId": "linear-regression-notebook-lab",
+        "variantId": "linear-regression-notebook-v3",
+        "stages": {
+          "TRACE": {
+            "GRAM": "GRAM_3_3_3_5"
+          },
+          "INVERSE": {
+            "GRAM_INVERSE": "INVERSE_5_6"
+          },
+          "TARGET_PRODUCT": {
+            "XT_Y": "XT_Y_9_13"
+          },
+          "COEFFICIENTS": {
+            "COEFFS": "COEFFS_1_2"
+          },
+          "SLOPE": {
+            "COEF": "COEF_2"
+          },
+          "INTERCEPT": {
+            "INTERCEPT": "INTERCEPT_1"
+          },
+          "PREDICT": {
+            "PREDICTIONS": "PREDICTIONS_7_9"
+          },
+          "MUTATION": {
+            "MUTATED_PREDICTIONS": "MUTATED_6_8"
+          },
+          "TEST": {
+            "TEST_ID": "TEST_INTERCEPT"
+          }
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "progress",
+          "submittedAt": "2026-09-18T08:57:18.939Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "linear-regression-notebook-lab",
+            "variantId": "linear-regression-notebook-v3",
+            "stages": {
+              "TRACE": {
+                "GRAM": "GRAM_3_3_3_5"
+              },
+              "INVERSE": {},
+              "TARGET_PRODUCT": {},
+              "COEFFICIENTS": {},
+              "SLOPE": {},
+              "INTERCEPT": {},
+              "PREDICT": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "progress",
+          "submittedAt": "2026-09-18T08:57:36.101Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "linear-regression-notebook-lab",
+            "variantId": "linear-regression-notebook-v3",
+            "stages": {
+              "TRACE": {
+                "GRAM": "GRAM_3_3_3_5"
+              },
+              "INVERSE": {
+                "GRAM_INVERSE": "INVERSE_5_6"
+              },
+              "TARGET_PRODUCT": {},
+              "COEFFICIENTS": {},
+              "SLOPE": {},
+              "INTERCEPT": {},
+              "PREDICT": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "progress",
+          "submittedAt": "2026-09-18T08:57:51.316Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "linear-regression-notebook-lab",
+            "variantId": "linear-regression-notebook-v3",
+            "stages": {
+              "TRACE": {
+                "GRAM": "GRAM_3_3_3_5"
+              },
+              "INVERSE": {
+                "GRAM_INVERSE": "INVERSE_5_6"
+              },
+              "TARGET_PRODUCT": {
+                "XT_Y": "XT_Y_9_13"
+              },
+              "COEFFICIENTS": {},
+              "SLOPE": {},
+              "INTERCEPT": {},
+              "PREDICT": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 4,
+          "outcome": "progress",
+          "submittedAt": "2026-09-18T08:58:05.444Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "linear-regression-notebook-lab",
+            "variantId": "linear-regression-notebook-v3",
+            "stages": {
+              "TRACE": {
+                "GRAM": "GRAM_3_3_3_5"
+              },
+              "INVERSE": {
+                "GRAM_INVERSE": "INVERSE_5_6"
+              },
+              "TARGET_PRODUCT": {
+                "XT_Y": "XT_Y_9_13"
+              },
+              "COEFFICIENTS": {
+                "COEFFS": "COEFFS_1_2"
+              },
+              "SLOPE": {},
+              "INTERCEPT": {},
+              "PREDICT": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 5,
+          "outcome": "progress",
+          "submittedAt": "2026-09-18T08:58:19.253Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "linear-regression-notebook-lab",
+            "variantId": "linear-regression-notebook-v3",
+            "stages": {
+              "TRACE": {
+                "GRAM": "GRAM_3_3_3_5"
+              },
+              "INVERSE": {
+                "GRAM_INVERSE": "INVERSE_5_6"
+              },
+              "TARGET_PRODUCT": {
+                "XT_Y": "XT_Y_9_13"
+              },
+              "COEFFICIENTS": {
+                "COEFFS": "COEFFS_1_2"
+              },
+              "SLOPE": {
+                "COEF": "COEF_2"
+              },
+              "INTERCEPT": {},
+              "PREDICT": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 6,
+          "outcome": "progress",
+          "submittedAt": "2026-09-18T08:58:27.760Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "linear-regression-notebook-lab",
+            "variantId": "linear-regression-notebook-v3",
+            "stages": {
+              "TRACE": {
+                "GRAM": "GRAM_3_3_3_5"
+              },
+              "INVERSE": {
+                "GRAM_INVERSE": "INVERSE_5_6"
+              },
+              "TARGET_PRODUCT": {
+                "XT_Y": "XT_Y_9_13"
+              },
+              "COEFFICIENTS": {
+                "COEFFS": "COEFFS_1_2"
+              },
+              "SLOPE": {
+                "COEF": "COEF_2"
+              },
+              "INTERCEPT": {
+                "INTERCEPT": "INTERCEPT_1"
+              },
+              "PREDICT": {},
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 7,
+          "outcome": "progress",
+          "submittedAt": "2026-09-18T08:58:44.659Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "linear-regression-notebook-lab",
+            "variantId": "linear-regression-notebook-v3",
+            "stages": {
+              "TRACE": {
+                "GRAM": "GRAM_3_3_3_5"
+              },
+              "INVERSE": {
+                "GRAM_INVERSE": "INVERSE_5_6"
+              },
+              "TARGET_PRODUCT": {
+                "XT_Y": "XT_Y_9_13"
+              },
+              "COEFFICIENTS": {
+                "COEFFS": "COEFFS_1_2"
+              },
+              "SLOPE": {
+                "COEF": "COEF_2"
+              },
+              "INTERCEPT": {
+                "INTERCEPT": "INTERCEPT_1"
+              },
+              "PREDICT": {
+                "PREDICTIONS": "PREDICTIONS_7_9"
+              },
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 8,
+          "outcome": "progress",
+          "submittedAt": "2026-09-18T08:58:59.038Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "linear-regression-notebook-lab",
+            "variantId": "linear-regression-notebook-v3",
+            "stages": {
+              "TRACE": {
+                "GRAM": "GRAM_3_3_3_5"
+              },
+              "INVERSE": {
+                "GRAM_INVERSE": "INVERSE_5_6"
+              },
+              "TARGET_PRODUCT": {
+                "XT_Y": "XT_Y_9_13"
+              },
+              "COEFFICIENTS": {
+                "COEFFS": "COEFFS_1_2"
+              },
+              "SLOPE": {
+                "COEF": "COEF_2"
+              },
+              "INTERCEPT": {
+                "INTERCEPT": "INTERCEPT_1"
+              },
+              "PREDICT": {
+                "PREDICTIONS": "PREDICTIONS_7_9"
+              },
+              "MUTATION": {
+                "MUTATED_PREDICTIONS": "MUTATED_6_8"
+              },
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 9,
+          "outcome": "correct",
+          "submittedAt": "2026-09-18T08:59:29.729Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "linear-regression-notebook-lab",
+            "variantId": "linear-regression-notebook-v3",
+            "stages": {
+              "TRACE": {
+                "GRAM": "GRAM_3_3_3_5"
+              },
+              "INVERSE": {
+                "GRAM_INVERSE": "INVERSE_5_6"
+              },
+              "TARGET_PRODUCT": {
+                "XT_Y": "XT_Y_9_13"
+              },
+              "COEFFICIENTS": {
+                "COEFFS": "COEFFS_1_2"
+              },
+              "SLOPE": {
+                "COEF": "COEF_2"
+              },
+              "INTERCEPT": {
+                "INTERCEPT": "INTERCEPT_1"
+              },
+              "PREDICT": {
+                "PREDICTIONS": "PREDICTIONS_7_9"
+              },
+              "MUTATION": {
+                "MUTATED_PREDICTIONS": "MUTATED_6_8"
+              },
+              "TEST": {
+                "TEST_ID": "TEST_INTERCEPT"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,720 @@
+{
+  "formatVersion": 2,
+  "assignmentId": "pca",
+  "assignmentVersion": 7,
+  "generatedAt": "2026-09-07T00:35:27.401Z",
+  "questions": [
+    {
+      "id": "pca-uncentered",
+      "status": "correct",
+      "attempts": 4,
+      "hintsShown": 1,
+      "latestAnswer": {
+        "direction": [
+          -0.8992527925386595,
+          0.4374293258475277
+        ]
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:25:41.928Z",
+          "answer": {
+            "direction": [
+              0.9510565162951535,
+              -0.3090169943749474
+            ]
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:26:00.743Z",
+          "answer": {
+            "direction": [
+              0.7904900117919627,
+              -0.6124749311254647
+            ]
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:26:19.742Z",
+          "answer": {
+            "direction": [
+              -0.7645782468943125,
+              0.6445309180916147
+            ]
+          }
+        },
+        {
+          "attemptNumber": 4,
+          "outcome": "correct",
+          "submittedAt": "2026-09-06T22:28:58.624Z",
+          "answer": {
+            "direction": [
+              -0.8992527925386595,
+              0.4374293258475277
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pca-centered",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "direction": [
+          -0.5894435593188352,
+          -0.8078095631877249
+        ]
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-06T22:30:04.380Z",
+          "answer": {
+            "direction": [
+              -0.5894435593188352,
+              -0.8078095631877249
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pca-near-circular",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "direction": [
+          0.9940961335182131,
+          -0.10850289085613794
+        ]
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-06T22:31:09.634Z",
+          "answer": {
+            "direction": [
+              0.9940961335182131,
+              -0.10850289085613794
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pca-outlier",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "direction": [
+          0.4943058050484773,
+          0.8692880829134705
+        ]
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-06T22:31:28.716Z",
+          "answer": {
+            "direction": [
+              0.4943058050484773,
+              0.8692880829134705
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pca-standardize",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "selectedIds": {
+          "pca-behavior": "price-dominates",
+          "pca-fix": "standardize"
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-06T22:32:41.860Z",
+          "answer": {
+            "selectedIds": {
+              "pca-behavior": "price-dominates",
+              "pca-fix": "standardize"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "pca-3d-plane",
+      "status": "correct",
+      "attempts": 22,
+      "hintsShown": 2,
+      "latestAnswer": {
+        "first": [
+          0.7287455995900635,
+          0.6678800858222492,
+          0.1512152176210578
+        ],
+        "second": [
+          -0.4333525631769515,
+          0.27880803607056753,
+          0.8570132058553354
+        ]
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:35:22.632Z",
+          "answer": {
+            "first": [
+              0.36806763003311693,
+              0.689904280172978,
+              0.6233444504612274
+            ],
+            "second": [
+              -0.750651235418244,
+              -0.17512740629988072,
+              0.6370660203838695
+            ]
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:35:46.152Z",
+          "answer": {
+            "first": [
+              0.36806763003311693,
+              0.689904280172978,
+              0.6233444504612274
+            ],
+            "second": [
+              0.7310453285565854,
+              0.19953404830899701,
+              -0.6525020238750352
+            ]
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:37:28.169Z",
+          "answer": {
+            "first": [
+              0.36806763003311693,
+              0.689904280172978,
+              0.6233444504612274
+            ],
+            "second": [
+              -0.7506512354182437,
+              -0.17512740629988086,
+              0.6370660203838696
+            ]
+          }
+        },
+        {
+          "attemptNumber": 4,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:38:29.639Z",
+          "answer": {
+            "first": [
+              -0.44306450839455536,
+              -0.7093976298710388,
+              -0.5481321411251521
+            ],
+            "second": [
+              0.7175592180814518,
+              0.08589454748399229,
+              -0.6911807978082548
+            ]
+          }
+        },
+        {
+          "attemptNumber": 5,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:38:31.855Z",
+          "answer": {
+            "first": [
+              -0.44306450839455536,
+              -0.7093976298710388,
+              -0.5481321411251521
+            ],
+            "second": [
+              0.7175592180814518,
+              0.08589454748399229,
+              -0.6911807978082548
+            ]
+          }
+        },
+        {
+          "attemptNumber": 6,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:38:52.823Z",
+          "answer": {
+            "first": [
+              -0.44306450839455536,
+              -0.7093976298710388,
+              -0.5481321411251521
+            ],
+            "second": [
+              -0.6983669858556448,
+              -0.11025633855153291,
+              0.7071966437110059
+            ]
+          }
+        },
+        {
+          "attemptNumber": 7,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:39:15.709Z",
+          "answer": {
+            "first": [
+              -0.4311537212457526,
+              -0.737015009538991,
+              -0.5204952875580919
+            ],
+            "second": [
+              0.7354319752497657,
+              0.04714675268081735,
+              -0.6759563547240918
+            ]
+          }
+        },
+        {
+          "attemptNumber": 8,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:39:16.810Z",
+          "answer": {
+            "first": [
+              -0.4311537212457526,
+              -0.737015009538991,
+              -0.5204952875580919
+            ],
+            "second": [
+              0.7354319752497657,
+              0.04714675268081735,
+              -0.6759563547240918
+            ]
+          }
+        },
+        {
+          "attemptNumber": 9,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:39:17.210Z",
+          "answer": {
+            "first": [
+              -0.4311537212457526,
+              -0.737015009538991,
+              -0.5204952875580919
+            ],
+            "second": [
+              0.7354319752497657,
+              0.04714675268081735,
+              -0.6759563547240918
+            ]
+          }
+        },
+        {
+          "attemptNumber": 10,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:39:17.411Z",
+          "answer": {
+            "first": [
+              -0.4311537212457526,
+              -0.737015009538991,
+              -0.5204952875580919
+            ],
+            "second": [
+              0.7354319752497657,
+              0.04714675268081735,
+              -0.6759563547240918
+            ]
+          }
+        },
+        {
+          "attemptNumber": 11,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:39:17.993Z",
+          "answer": {
+            "first": [
+              -0.4311537212457526,
+              -0.737015009538991,
+              -0.5204952875580919
+            ],
+            "second": [
+              0.7354319752497657,
+              0.04714675268081735,
+              -0.6759563547240918
+            ]
+          }
+        },
+        {
+          "attemptNumber": 12,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:39:18.193Z",
+          "answer": {
+            "first": [
+              -0.4311537212457526,
+              -0.737015009538991,
+              -0.5204952875580919
+            ],
+            "second": [
+              0.7354319752497657,
+              0.04714675268081735,
+              -0.6759563547240918
+            ]
+          }
+        },
+        {
+          "attemptNumber": 13,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:39:18.377Z",
+          "answer": {
+            "first": [
+              -0.4311537212457526,
+              -0.737015009538991,
+              -0.5204952875580919
+            ],
+            "second": [
+              0.7354319752497657,
+              0.04714675268081735,
+              -0.6759563547240918
+            ]
+          }
+        },
+        {
+          "attemptNumber": 14,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:39:18.561Z",
+          "answer": {
+            "first": [
+              -0.4311537212457526,
+              -0.737015009538991,
+              -0.5204952875580919
+            ],
+            "second": [
+              0.7354319752497657,
+              0.04714675268081735,
+              -0.6759563547240918
+            ]
+          }
+        },
+        {
+          "attemptNumber": 15,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:39:18.761Z",
+          "answer": {
+            "first": [
+              -0.4311537212457526,
+              -0.737015009538991,
+              -0.5204952875580919
+            ],
+            "second": [
+              0.7354319752497657,
+              0.04714675268081735,
+              -0.6759563547240918
+            ]
+          }
+        },
+        {
+          "attemptNumber": 16,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:39:20.564Z",
+          "answer": {
+            "first": [
+              -0.4311537212457526,
+              -0.737015009538991,
+              -0.5204952875580919
+            ],
+            "second": [
+              0.7354319752497657,
+              0.04714675268081735,
+              -0.6759563547240918
+            ]
+          }
+        },
+        {
+          "attemptNumber": 17,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:43:44.232Z",
+          "answer": {
+            "first": [
+              -0.29239864147905437,
+              -0.7093976298710388,
+              -0.6412940333377163
+            ],
+            "second": [
+              0.7744067239242867,
+              0.21779780012812444,
+              -0.5940188079515694
+            ]
+          }
+        },
+        {
+          "attemptNumber": 18,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:44:34.055Z",
+          "answer": {
+            "first": [
+              -0.30393371498356697,
+              -0.680645365325383,
+              -0.6665929669276175
+            ],
+            "second": [
+              -0.7584336842416235,
+              -0.25056842167762067,
+              0.6016592163888651
+            ]
+          }
+        },
+        {
+          "attemptNumber": 19,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:47:26.063Z",
+          "answer": {
+            "first": [
+              0.03859567920232085,
+              0.5491583583726004,
+              0.8348266113250234
+            ],
+            "second": [
+              -0.8139709823331106,
+              -0.4673277495105928,
+              0.3450449455607711
+            ]
+          }
+        },
+        {
+          "attemptNumber": 20,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:47:27.115Z",
+          "answer": {
+            "first": [
+              0.03859567920232085,
+              0.5491583583726004,
+              0.8348266113250234
+            ],
+            "second": [
+              -0.8139709823331106,
+              -0.4673277495105928,
+              0.3450449455607711
+            ]
+          }
+        },
+        {
+          "attemptNumber": 21,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-06T22:47:27.348Z",
+          "answer": {
+            "first": [
+              0.03859567920232085,
+              0.5491583583726004,
+              0.8348266113250234
+            ],
+            "second": [
+              -0.8139709823331106,
+              -0.4673277495105928,
+              0.3450449455607711
+            ]
+          }
+        },
+        {
+          "attemptNumber": 22,
+          "outcome": "correct",
+          "submittedAt": "2026-09-06T22:52:37.471Z",
+          "answer": {
+            "first": [
+              0.7287455995900635,
+              0.6678800858222492,
+              0.1512152176210578
+            ],
+            "second": [
+              -0.4333525631769515,
+              0.27880803607056753,
+              0.8570132058553354
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pca-hand-calculation",
+      "status": "correct",
+      "attempts": 3,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "step": "direction",
+        "values": [
+          1,
+          2
+        ]
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "progress",
+          "submittedAt": "2026-09-06T22:55:40.422Z",
+          "answer": {
+            "step": "centeredData",
+            "values": [
+              [
+                -3,
+                -6
+              ],
+              [
+                -1,
+                -2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "progress",
+          "submittedAt": "2026-09-06T22:58:56.383Z",
+          "answer": {
+            "step": "covariance",
+            "values": [
+              [
+                5,
+                10
+              ],
+              [
+                10,
+                20
+              ]
+            ]
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "correct",
+          "submittedAt": "2026-09-06T23:00:21.603Z",
+          "answer": {
+            "step": "direction",
+            "values": [
+              1,
+              2
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pca-code-lab",
+      "status": "correct",
+      "attempts": 3,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "formatVersion": 1,
+        "questionId": "pca-code-lab",
+        "variantId": "pca-notebook-v1",
+        "stages": {
+          "TRACE": {
+            "BASIS_SHAPE": "SHAPE_2_1",
+            "PROJECTED": "PROJECTED_NEG2_0_2",
+            "NEW_PROJECTED": "NEW_NEG1_1"
+          },
+          "MUTATION": {
+            "CHANGED_S6_EFFECT": "CHANGED_10_12"
+          },
+          "TEST": {
+            "TEST_ID": "TEST_TRANSFORM_MEAN_ZERO"
+          }
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "progress",
+          "submittedAt": "2026-09-06T23:27:51.968Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "pca-code-lab",
+            "variantId": "pca-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "BASIS_SHAPE": "SHAPE_2_1",
+                "PROJECTED": "PROJECTED_NEG2_0_2",
+                "NEW_PROJECTED": "NEW_NEG1_1"
+              },
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "progress",
+          "submittedAt": "2026-09-06T23:28:24.895Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "pca-code-lab",
+            "variantId": "pca-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "BASIS_SHAPE": "SHAPE_2_1",
+                "PROJECTED": "PROJECTED_NEG2_0_2",
+                "NEW_PROJECTED": "NEW_NEG1_1"
+              },
+              "MUTATION": {
+                "CHANGED_S6_EFFECT": "CHANGED_10_12"
+              },
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "correct",
+          "submittedAt": "2026-09-06T23:31:57.920Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "pca-code-lab",
+            "variantId": "pca-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "BASIS_SHAPE": "SHAPE_2_1",
+                "PROJECTED": "PROJECTED_NEG2_0_2",
+                "NEW_PROJECTED": "NEW_NEG1_1"
+              },
+              "MUTATION": {
+                "CHANGED_S6_EFFECT": "CHANGED_10_12"
+              },
+              "TEST": {
+                "TEST_ID": "TEST_TRANSFORM_MEAN_ZERO"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

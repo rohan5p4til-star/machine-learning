@@ -1,0 +1,627 @@
+{
+  "formatVersion": 2,
+  "assignmentId": "knn",
+  "assignmentVersion": 8,
+  "generatedAt": "2026-09-14T20:45:24.774Z",
+  "questions": [
+    {
+      "id": "knn-predict-sequence",
+      "status": "correct",
+      "attempts": 4,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "step": 2,
+        "predictedLabel": 1
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-14T05:51:04.148Z",
+          "answer": {
+            "step": 0,
+            "predictedLabel": 1
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "progress",
+          "submittedAt": "2026-09-14T05:51:11.914Z",
+          "answer": {
+            "step": 0,
+            "predictedLabel": 0
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "progress",
+          "submittedAt": "2026-09-14T05:51:19.831Z",
+          "answer": {
+            "step": 1,
+            "predictedLabel": 1
+          }
+        },
+        {
+          "attemptNumber": 4,
+          "outcome": "correct",
+          "submittedAt": "2026-09-14T05:51:55.480Z",
+          "answer": {
+            "step": 2,
+            "predictedLabel": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "knn-decision-boundary",
+      "status": "correct",
+      "attempts": 4,
+      "hintsShown": 1,
+      "latestAnswer": {
+        "step": 1,
+        "cells": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-14T05:57:09.750Z",
+          "answer": {
+            "step": 0,
+            "cells": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "progress",
+          "submittedAt": "2026-09-14T05:57:22.647Z",
+          "answer": {
+            "step": 0,
+            "cells": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-14T05:57:50.847Z",
+          "answer": {
+            "step": 1,
+            "cells": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "attemptNumber": 4,
+          "outcome": "correct",
+          "submittedAt": "2026-09-14T05:58:16.880Z",
+          "answer": {
+            "step": 1,
+            "cells": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "knn-best-k",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "k": 5
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-14T06:02:57.614Z",
+          "answer": {
+            "k": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "knn-scaling-trap",
+      "status": "correct",
+      "attempts": 3,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "step": "normalized",
+        "predictedLabel": 0
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "incorrect",
+          "submittedAt": "2026-09-14T06:08:34.843Z",
+          "answer": {
+            "step": "raw",
+            "predictedLabel": 0
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "progress",
+          "submittedAt": "2026-09-14T06:11:46.900Z",
+          "answer": {
+            "step": "raw",
+            "predictedLabel": 1
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "correct",
+          "submittedAt": "2026-09-14T06:11:58.086Z",
+          "answer": {
+            "step": "normalized",
+            "predictedLabel": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "knn-metric-comparison",
+      "status": "correct",
+      "attempts": 2,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "step": "manhattan",
+        "predictedLabel": 1
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "progress",
+          "submittedAt": "2026-09-14T20:27:50.786Z",
+          "answer": {
+            "step": "euclidean",
+            "predictedLabel": 0
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "correct",
+          "submittedAt": "2026-09-14T20:28:00.496Z",
+          "answer": {
+            "step": "manhattan",
+            "predictedLabel": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "knn-adversarial-placement",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "point": [
+          -0.07975823925191028,
+          -0.32008720930232526
+        ]
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-14T20:28:40.370Z",
+          "answer": {
+            "point": [
+              -0.07975823925191028,
+              -0.32008720930232526
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "knn-train-test-accuracy",
+      "status": "correct",
+      "attempts": 1,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "selectedIds": {
+          "train-correct": "train-7",
+          "train-accuracy": "train-87-5",
+          "test-correct": "test-2",
+          "test-accuracy": "test-50",
+          "future-performance": "use-test"
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "correct",
+          "submittedAt": "2026-09-14T20:36:11.446Z",
+          "answer": {
+            "selectedIds": {
+              "train-correct": "train-7",
+              "train-accuracy": "train-87-5",
+              "test-correct": "test-2",
+              "test-accuracy": "test-50",
+              "future-performance": "use-test"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "knn-code-lab",
+      "status": "correct",
+      "attempts": 3,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "formatVersion": 1,
+        "questionId": "knn-code-lab",
+        "variantId": "knn-notebook-v1",
+        "stages": {
+          "TRACE": {
+            "IRIS_X_SHAPE": "SHAPE_150_2",
+            "IRIS_X_COLUMNS": "PETAL_LENGTH_WIDTH",
+            "DISTANCES": "DISTANCES_4_25_1_25_3_25_10_25",
+            "NEIGHBOR_SPECIES": "SPECIES_0_0",
+            "PREDICTION": "PREDICTION_0"
+          },
+          "MUTATION": {
+            "CHANGED_SLICE_EFFECT": "FARTHEST_LABELS_1_2_PREDICTION_1"
+          },
+          "TEST": {
+            "TEST_ID": "TEST_EXACT_NEIGHBOR_LABELS"
+          }
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "progress",
+          "submittedAt": "2026-09-14T20:38:57.156Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "knn-code-lab",
+            "variantId": "knn-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "IRIS_X_SHAPE": "SHAPE_150_2",
+                "IRIS_X_COLUMNS": "PETAL_LENGTH_WIDTH",
+                "DISTANCES": "DISTANCES_4_25_1_25_3_25_10_25",
+                "NEIGHBOR_SPECIES": "SPECIES_0_0",
+                "PREDICTION": "PREDICTION_0"
+              },
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "progress",
+          "submittedAt": "2026-09-14T20:40:13.938Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "knn-code-lab",
+            "variantId": "knn-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "IRIS_X_SHAPE": "SHAPE_150_2",
+                "IRIS_X_COLUMNS": "PETAL_LENGTH_WIDTH",
+                "DISTANCES": "DISTANCES_4_25_1_25_3_25_10_25",
+                "NEIGHBOR_SPECIES": "SPECIES_0_0",
+                "PREDICTION": "PREDICTION_0"
+              },
+              "MUTATION": {
+                "CHANGED_SLICE_EFFECT": "FARTHEST_LABELS_1_2_PREDICTION_1"
+              },
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "correct",
+          "submittedAt": "2026-09-14T20:41:25.308Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "knn-code-lab",
+            "variantId": "knn-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "IRIS_X_SHAPE": "SHAPE_150_2",
+                "IRIS_X_COLUMNS": "PETAL_LENGTH_WIDTH",
+                "DISTANCES": "DISTANCES_4_25_1_25_3_25_10_25",
+                "NEIGHBOR_SPECIES": "SPECIES_0_0",
+                "PREDICTION": "PREDICTION_0"
+              },
+              "MUTATION": {
+                "CHANGED_SLICE_EFFECT": "FARTHEST_LABELS_1_2_PREDICTION_1"
+              },
+              "TEST": {
+                "TEST_ID": "TEST_EXACT_NEIGHBOR_LABELS"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "knn-evaluation-notebook-lab",
+      "status": "correct",
+      "attempts": 3,
+      "hintsShown": 0,
+      "latestAnswer": {
+        "formatVersion": 1,
+        "questionId": "knn-evaluation-notebook-lab",
+        "variantId": "knn-evaluation-notebook-v1",
+        "stages": {
+          "TRACE": {
+            "ORIGINAL_X_SHAPE": "SHAPE_150_4",
+            "REQUESTED_TEST_SIZE": "REQUESTED_30",
+            "ACTUAL_TEST_SIZE": "ACTUAL_TEST_27",
+            "ACTUAL_TRAIN_SIZE": "ACTUAL_TRAIN_123",
+            "TEST_DATA_SHAPE": "TEST_SHAPE_27_4"
+          },
+          "MUTATION": {
+            "WITHOUT_REPLACEMENT_EFFECT": "EXACTLY_30_TEST_120_TRAIN"
+          },
+          "TEST": {
+            "BEST_K_ASSERTION": "ASSERT_FIRST_MAX_K_5"
+          }
+        }
+      },
+      "attemptHistory": [
+        {
+          "attemptNumber": 1,
+          "outcome": "progress",
+          "submittedAt": "2026-09-14T20:44:49.650Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "knn-evaluation-notebook-lab",
+            "variantId": "knn-evaluation-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "ORIGINAL_X_SHAPE": "SHAPE_150_4",
+                "REQUESTED_TEST_SIZE": "REQUESTED_30",
+                "ACTUAL_TEST_SIZE": "ACTUAL_TEST_27",
+                "ACTUAL_TRAIN_SIZE": "ACTUAL_TRAIN_123",
+                "TEST_DATA_SHAPE": "TEST_SHAPE_27_4"
+              },
+              "MUTATION": {},
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 2,
+          "outcome": "progress",
+          "submittedAt": "2026-09-14T20:45:05.034Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "knn-evaluation-notebook-lab",
+            "variantId": "knn-evaluation-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "ORIGINAL_X_SHAPE": "SHAPE_150_4",
+                "REQUESTED_TEST_SIZE": "REQUESTED_30",
+                "ACTUAL_TEST_SIZE": "ACTUAL_TEST_27",
+                "ACTUAL_TRAIN_SIZE": "ACTUAL_TRAIN_123",
+                "TEST_DATA_SHAPE": "TEST_SHAPE_27_4"
+              },
+              "MUTATION": {
+                "WITHOUT_REPLACEMENT_EFFECT": "EXACTLY_30_TEST_120_TRAIN"
+              },
+              "TEST": {}
+            }
+          }
+        },
+        {
+          "attemptNumber": 3,
+          "outcome": "correct",
+          "submittedAt": "2026-09-14T20:45:19.801Z",
+          "answer": {
+            "formatVersion": 1,
+            "questionId": "knn-evaluation-notebook-lab",
+            "variantId": "knn-evaluation-notebook-v1",
+            "stages": {
+              "TRACE": {
+                "ORIGINAL_X_SHAPE": "SHAPE_150_4",
+                "REQUESTED_TEST_SIZE": "REQUESTED_30",
+                "ACTUAL_TEST_SIZE": "ACTUAL_TEST_27",
+                "ACTUAL_TRAIN_SIZE": "ACTUAL_TRAIN_123",
+                "TEST_DATA_SHAPE": "TEST_SHAPE_27_4"
+              },
+              "MUTATION": {
+                "WITHOUT_REPLACEMENT_EFFECT": "EXACTLY_30_TEST_120_TRAIN"
+              },
+              "TEST": {
+                "BEST_K_ASSERTION": "ASSERT_FIRST_MAX_K_5"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
